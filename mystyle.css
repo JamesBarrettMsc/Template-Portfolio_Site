@@ -1,0 +1,107 @@
+/* Banner Image */
+.banner {
+	width: 100%;
+	height: 300px;
+	background: url('src/images/banner_image.jpg') no-repeat center center;
+	background-size: cover;
+}
+
+
+/* Navigation bar */
+nav {
+        background: #e2d4d4;
+        text-align: center;
+        padding: 10px;
+}
+
+nav a {
+        color: black;
+        margin: 0 15px;
+        text-decoration: none;
+        font-size: 18px;
+        padding: 5px 10px;
+        border-radius: 5px;
+        transition: background 0.3s;
+}
+
+nav a:hover {
+        background: white;
+}
+
+
+/* Main Content Area */
+#contentFrame {
+        width: 90%;
+        height: 1010px;
+        border: 1px solid #ddd;
+        margin-top: 20px;
+
+
+  	padding-right: 5%;
+  	padding-left: 4%;
+}
+
+body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+}
+
+h1 {
+	display: block;
+	font-size: 2em;
+	margin-top: 0.67em;
+	margin-bottom: 0.67em;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bold;
+	text-align: center;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+	
+	background: #264237;
+	
+}
+
+
+h2 {
+	display: block;
+	font-size: 1em;
+	margin-top: 0.67em;
+	margin-bottom: 0.67em;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: oblique;
+	text-align: rigth;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+	background: #f2e0bf;
+}
+
+p {
+	display: block;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 0;
+	margin-right: 0;
+	background: #fcf5e8;
+}
+
+
+
+audio {	
+	background: #f2e0bf;
+	width: 100%;
+}
+
+
+.avatar {
+  	vertical-align: middle;
+  	width: 100px;
+  	height: 100px;
+ 	 border-radius: 50%;
+}
+
+
