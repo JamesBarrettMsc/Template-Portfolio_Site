@@ -8,6 +8,14 @@
       <!-- ********************************************************************** -->
       <title>STUDENT NAME</title><!-- NEW -->
       <link rel="icon" type="image/png" href="src/images/icon.png"> <!-- NEW -->
+
+      <script>
+        function resizeIframe(obj) {
+          obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+        }
+      </script>
+
+    
       <!-- ********************************************************************** -->
       
       <link rel="stylesheet" href="mystyle.css">
@@ -26,6 +34,12 @@
     <!-- Main Content Area -->
     <iframe id="contentFrame" name="contentFrame" src="home.html" id="Iframe"></iframe>
 
+  <iframe src="..." 
+        style="border-style: none; height: 0; overflow: hidden"
+        onload="resizeIframe(this)" />
+   </iframe>
+
+    
         <script>
             // Selecting the iframe element
             var frame = document.getElementById("Iframe");
