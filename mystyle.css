@@ -37,6 +37,7 @@ nav a:hover {
         margin-top: 5px;
   	padding-right: 5%;
   	padding-left: 5%;
+	overflow: hidden;
 }
 
 
