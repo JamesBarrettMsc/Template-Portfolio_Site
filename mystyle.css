@@ -33,19 +33,12 @@ nav a:hover {
 #contentFrame {
         width: 90%;
        /* height: 1010px;*/
+	height: 100vh;  /* Set height to 100% of the viewport height */   
         border: 1px solid #48ff03;
         margin-top: 5px;
   	padding-right: 5%;
   	padding-left: 5%;
 }
-
-iframe{      
-        display: block;  /* iframes are inline by default */   
-        height: 100vh;  /* Set height to 100% of the viewport height */   
-        width: 100vw;  /* Set width to 100% of the viewport width */     
-        border: none; /* Remove default border */
-        background: lightyellow; /* Just for styling */
-    }
 
 
 
