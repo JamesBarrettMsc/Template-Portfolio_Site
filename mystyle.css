@@ -1,7 +1,7 @@
 /* Banner Image */
 .banner {
 	width: 100%;
-	height: 100px;
+	height: 10vh;
 	background: url('src/images/banner_image.jpg') no-repeat center center;
 	background-size: cover;
 }
@@ -12,6 +12,7 @@ nav {
         background: #e2d4d4;
         text-align: center;
         padding: 10px;
+
 }
 
 nav a {
@@ -22,6 +23,7 @@ nav a {
         padding: 5px 10px;
         border-radius: 5px;
         transition: background 0.3s;
+
 }
 
 nav a:hover {
@@ -31,23 +33,20 @@ nav a:hover {
 
 /* Main Content Area */
 #contentFrame {
-        width: 90%;
-        height: 1010px;
-        border: 1px solid #48ff03;
-        margin-top: 5px;
-  	padding-right: 5%;
-  	padding-left: 5%;
-	overflow: hidden;
+    	width: 100%;
+    	height: 80vh;
+       
 }
 
 
-
 /* Navigation bar */
+
 body {
         font-family: Arial, sans-serif;
         margin: 0;
         padding: 0;
 	background-color:powderblue;
+ 	
 }
 
 h1 {
@@ -69,29 +68,44 @@ h1 {
 
 
 h2 {
+	border: 2px outset black;
 	display: block;
-	font-size: 1em;
-	margin-top: 0.67em;
+
+	font-size: 25px;
+	margin-top: 1.67em;
 	margin-bottom: 0.67em;
-	margin-left: 0;
-	margin-right: 0;
+
+	margin-left: 2%;
+	margin-right: 2%;
 	font-weight: oblique;
-	text-align: rigth;
+	text-align: Center;
         font-family: Arial, sans-serif;
-        margin: 0;
+        margin: 2;
         padding: 0;
+
 	background: #f2e0bf;
+
+	border-radius: 25px;
+	width: 25%;
 }
 
-p {
-	display: block;
-	margin-top: 1em;
-	margin-bottom: 1em;
-	margin-left: 0;
-	margin-right: 0;
-	background: #fcf5e8;
-}
 
+
+.myDiv {
+  	border: 2px outset black;
+  	background: #f2e0bf;
+  	text-align: Left;
+
+  	padding-top: 5px;
+  	padding-right: 50px;
+  	padding-bottom: 5px;
+  	padding-left: 50px;
+
+	margin-left: 2%;
+	margin-right: 2%;
+	
+	border-radius: 25px;
+}
 
 
 audio {	
@@ -104,7 +118,28 @@ audio {
   	vertical-align: middle;
   	width: 100px;
   	height: 100px;
- 	 border-radius: 50%;
+ 	border-radius: 50%;
 }
+
+
+.button {
+  	background-color: #04AA6D; 
+  	border: none;
+  	color: white;
+  	padding: 15px 32px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+	border-radius: 25px;
+
+ 
+}
+
+audio::-webkit-media-controls-panel {
+  	background-color: coral;
+	
+}
+
 
 
