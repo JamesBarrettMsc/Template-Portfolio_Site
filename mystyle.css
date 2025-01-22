@@ -45,7 +45,18 @@ body {
         font-family: Arial, sans-serif;
         margin: 0;
         padding: 0;
-	background-color:powderblue;
+
+	/*background-color:powderblue;*/ 
+
+	background-image: url('src/images/Computer.gif');
+	background-size: cover;
+    
+    
+	height: 100vh;
+	padding:0;
+	margin:0;
+}
+
  	
 }
 
