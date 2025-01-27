@@ -1,110 +1,135 @@
+/*NEW */
+/* ************************* */
+@import url("base.css");
+/* ************************* */
+
+
+/* Style the buttons */
+.button {
+
+  	color: var(--buttons_text_colour);
+  	background-color: var(--buttons_background_color); 
+
+
+	border-width:var(--border-width);
+	border-color: var(--accent_color);
+	border-style:var(--border-style);
+	border-radius: var(--corner_rounding);
+
+  	text-align: center;
+  	text-decoration: none;
+
+  	display: inline-block;
+
+  	font-size: 20px;
+}
+
+
+
+.button:hover  {
+	  color:var(--hover_text_colour); 
+	  background-color:var(--hover_background_color); 
+	
+}
+
+.button.active {
+	color: var(--active_text_colour);
+ 	background-color: var(--active_background_color);
+ 
+}
+
+/* ************************* */
+
+
+
+
 /* Banner Image */
+/* ************************* */
+
 .banner {
 	width: 100%;
 	height: 10vh;
-	background: url('src/images/banner_image.jpg') no-repeat center center;
+	background: var(--banner_image);
 	background-size: cover;
 }
 
 
+
+
+
+/* ************************* */
+
+
 /* Navigation bar */
+/* ************************* */
 nav {
-        background: #e2d4d4;
+
+       	background: var(--colour);
         text-align: center;
         padding: 10px;
-
 }
 
+
 nav a {
-        color: black;
-        margin: 0 15px;
-        text-decoration: none;
-        font-size: 18px;
-        padding: 5px 10px;
-        border-radius: 5px;
-        transition: background 0.3s;
+
+	color: var(--text_colour);
+	background: var(--buttons_background_color); 
+
+
+	border-color: var(--accent_color);
+
+	border-width:var(--border-width);
+	border-style:var(--border-style);
+
+	margin: 0 15px;
+	text-decoration: none;
+	font-size: 25px;
+		
+	padding: 5px 10px;
+	transition: background 0.3s;
 
 }
 
 nav a:hover {
-        background: white;
+	color: var(--hover_text_colour);
+	background: var(--hover_background_color);
 }
+
+/* ************************* */
 
 
 /* Main Content Area */
+/* ************************* */
 #contentFrame {
     	width: 100%;
     	height: 80vh;
        
 }
 
+/* ************************* */
 
-/* Navigation bar */
 
-body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-
-	/*background-color:powderblue;*/ 
-
-	background-image: url('src/images/Computer.gif');
-	background-size: cover;
-    
-    
-	height: 100vh;
-	padding:0;
-	margin:0;
+/* Profile Image */
+/* ************************* */
+.profile_image  {
+  	vertical-align: middle;
+  	width: 100px; 
+  	height: 100px;
+ 	border-radius: 50%;
 }
 
- 	
-}
-
-h1 {
-	display: block;
-	font-size: 2em;
-	margin-top: 0.67em;
-	margin-bottom: 0.67em;
-	margin-left: 0;
-	margin-right: 0;
-	font-weight: bold;
-	text-align: center;
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-	
-	background: #264237;
-	
-}
+/* ************************* */
 
 
-h2 {
-	border: 2px outset black;
-	display: block;
+/* Segment  */
+/* ************************* */
+.segment {
 
-	font-size: 25px;
-	margin-top: 1.67em;
-	margin-bottom: 0.67em;
+	border-width:var(--border-width);
+	border-color: var(--accent_color);
+	border-style:var(--border-style);
 
-	margin-left: 2%;
-	margin-right: 2%;
-	font-weight: oblique;
-	text-align: Center;
-        font-family: Arial, sans-serif;
-        margin: 2;
-        padding: 0;
-
-	background: #f2e0bf;
-
-	border-radius: 25px;
-	width: 25%;
-}
-
-
-
-.myDiv {
-  	border: 2px outset black;
-  	background: #f2e0bf;
+  	background: var(--colour);
   	text-align: justify;
 
   	padding-top: 5px;
@@ -115,51 +140,159 @@ h2 {
 	margin-left: 2%;
 	margin-right: 2%;
 	
-	border-radius: 25px;
+	border-radius: var(--corner_rounding);
 }
+/* ************************* */
 
 
-audio {	
-	background: #f2e0bf;
-	width: 100%;
-}
+
+/* Segment_Title    */
+/* ************************* */
+h2 {
+	border-width:var(--border-width);
+	border-color: var(--accent_color);
+	border-style:var(--border-style);
+
+	background: var(--colour);
+	border-radius: var(--corner_rounding);	
+	width: 25%;
 
 
-.avatar {
-  	vertical-align: middle;
-  	width: 100px;
-  	height: 100px;
- 	border-radius: 50%;
-}
+	display: block;
+	
+	margin-top: 1.67em;
+	margin-bottom: 0.67em;
 
+	margin-left: 2%;
+	margin-right: 2%;
+	font-weight: oblique;
+	text-align: Center;
 
-.button {
-  	background-color: #04AA6D; 
-  	border: none;
-  	color: white;
-  	padding: 15px 32px;
-  	text-align: center;
-  	text-decoration: none;
-  	display: inline-block;
-  	font-size: 16px;
-	border-radius: 25px;
-
- 
-}
-
-audio::-webkit-media-controls-panel {
-  	background-color: coral;
+        margin: 2;
+	padding: 0;
+		
 	
 }
 
 
 
 
+/* ************************* */
+body {
+	font-family: var(--Body_font_family);
+	color:var(--text_colour);
+
+
+	margin: 0;
+	padding: 0;
+
+	background-image: var(--background_image);
+	background-size: cover;
+   
+	height: 100vh;
+	padding:0;
+	margin:0;
+}
+
+ 	
+
+audio {	
+	border-width:var(--border-width);
+	border-color: var(--accent_color);
+	border-style:var(--border-style);
+	border-radius: var(--corner_rounding);
+
+	width: 100%;
+}
+
+audio::-webkit-media-controls-panel {
+  	background-color: var(--body_accent_color);
+	
+}
+
+/* ************************* */
+/* Sub Division  */
+
+.outer_column_div:after {
+  	content: "";
+  	display: table;
+  	clear: both;
+}
+
+/* ************************* */
+
+/*Two Columns  */
+
+.two_inner_column_div {
+
+  	float: left;
+  	width: 50%; 
+	padding: 10px;
+
+}
+
+/*three Columns  */
+.three_inner_column_div {
+
+  	float: left;
+  	width: 33.33%; 
+	padding: 10px;
+
+}
+
+/*four Columns  */
+.four_inner_column_div {
+
+  	float: left;
+  	width: 25%; 
+	padding: 10px;
+
+}
+
+/* 20 80 Split columns  */
+
+.Ten_inner_column_div {
+
+  	float: left;
+  	width: 40%; 
+	padding-right: 25px;
+
+}
+
+.Ninety_inner_column_div {
+
+  	float: left;
+  	width: 60%; 
+	background: gray;
+
+}
+
+/* ******************** */
+
+
+
+
+
+/* code_snippet */
+/* ************************* */
+.code_snippet {
+
+	background: white;
+	font-family: 'courier';
+	font-size: 20px;
+
+	border-radius: var(--corner_rounding);
+	padding-left: var(--corner_rounding);
+	padding-top: var(--corner_rounding);
+}
+/* ******************** */
+
+
 
 
 
 /* Photography */
-
+/* ************************* */
 
 * {
   box-sizing: border-box;
@@ -187,6 +320,8 @@ audio::-webkit-media-controls-panel {
 
 
 /* Create three equal columns that floats next to each other */
+
+
 .column {
   float: left;
   width: 33.33%;
@@ -211,61 +346,7 @@ audio::-webkit-media-controls-panel {
   display: block;
 }
 
-/* Style the buttons */
-.btn {
 
-  border: none;
-  outline: none;
-  padding: 12px 16px;
-  background-color: white;
-  cursor: pointer;
-  border-radius: 10px;
-
-}
-
-.btn:hover {
-  background-color: #ddd;
-}
-
-.btn.active {
-  background-color: #666;
-  color: white;
-}
-
-
-
-
-
-
-/* div 50 */
-/* ******************** */
-
-* {
-  box-sizing: border-box;
- }
-
-/* Create two equal columns that floats next to each other */
-.column_50 {
-  float: left;
-  width: 50%;
-  padding: 10px;
-
-
-}
-
-/* Clear floats after the columns */
-.row_50:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-
-/* */
-.center {
-  display: block;
-  width: 80%;
-}
 
 
 

@@ -1,0 +1,43 @@
+/* ************************* */
+:root {
+
+
+	/* *************** */
+	--banner_image:url('src/images/banner_image.jpg') no-repeat center center;
+	--background_image: url('src/images/Computer.gif');
+
+			
+	/* Colour Palette  */
+	/* *************** */
+	--colour:  #f2e0bf; 
+	--accent_color: BLACK; 
+	--body_accent_color: white;
+ 
+	--text_colour:BLACK; 
+
+
+	/* links & buttons */
+	/* *************** */
+	--buttons_text_colour:Black; 
+	--buttons_background_color:white;
+
+	--hover_text_colour:white; 
+	--hover_background_color:BLACK;
+
+	--active_text_colour:white; 
+	--active_background_color:gray;
+
+
+	/* Body */
+	/* *************** */
+	--Body_font_family: Arial, sans-serif;
+
+	--corner_rounding: 25px ;
+	--border-style: solid;	
+	--border-width: 3px;
+
+
+
+}
+
+
